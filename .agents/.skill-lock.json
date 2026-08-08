@@ -1,0 +1,41 @@
+{
+  "version": 3,
+  "skills": {
+    "elasticsearch-onboarding": {
+      "source": "elastic/agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/elastic/agent-skills.git",
+      "skillPath": "skills/elasticsearch/elasticsearch-onboarding/SKILL.md",
+      "skillFolderHash": "e13d41d07894cdd1f867c2ee48e374e422f1c1ee",
+      "installedAt": "2026-08-01T08:29:41.627Z",
+      "updatedAt": "2026-08-01T08:29:41.627Z"
+    },
+    "find-skills": {
+      "source": "vercel-labs/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/vercel-labs/skills.git",
+      "skillPath": "skills/find-skills/SKILL.md",
+      "skillFolderHash": "76a98a285cb0434f3d39e1a873823556330e398b",
+      "installedAt": "2026-08-01T08:29:50.041Z",
+      "updatedAt": "2026-08-01T08:29:50.041Z"
+    }
+  },
+  "dismissed": {
+    "findSkillsPrompt": true
+  },
+  "lastSelectedAgents": [
+    "amp",
+    "antigravity",
+    "antigravity-cli",
+    "cline",
+    "codex",
+    "cursor",
+    "deepagents",
+    "gemini-cli",
+    "github-copilot",
+    "kimi-code-cli",
+    "opencode",
+    "warp",
+    "zed"
+  ]
+}
