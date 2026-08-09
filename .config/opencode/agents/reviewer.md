@@ -163,6 +163,7 @@ ISSUES: <list or None>
 - No filler. Skip empty sections.
 - Don't propose new architecture — that's `@architect`'s job. Stay within the changed diff.
 - If the diff is clean, say so plainly: `VERDICT: PASS` with no findings.
+- **Do not run unit tests.** The developer has already run them — it's double work. If you must verify behavior, only run essential tests: e2e, integration, smoke, or regression tests. If those aren't available, do not run any tests — rely on your code review alone.
 
 ## Permission rules (read-only role)
 
